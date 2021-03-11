@@ -1,0 +1,11 @@
+[package]
+name = "cargo-templates"
+version = "0.0.1"
+authors = ["Henry Boisdequin <boisdequinhenry19@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "cli"
+path = "src/cli/main.rs"
+
+[dependencies]
